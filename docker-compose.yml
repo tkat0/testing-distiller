@@ -1,0 +1,12 @@
+version: "3"
+services:
+  dev:
+    build:
+      context: ./docker
+    tty: true
+    working_dir: /work
+    volumes:
+      - $PWD:/work
+    ports:
+      - 6006:6006 # tensorboard
+#      - 8888:8888 # jupyter notebook
