@@ -1,8 +1,9 @@
 version: "3"
 services:
-  dev:
+  cpu:
     build:
       context: ./docker
+      dockerfile: Dockerfile.cpu
     tty: true
     working_dir: /work
     volumes:

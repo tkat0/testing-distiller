@@ -7,8 +7,8 @@ https://github.com/NervanaSystems/distiller
 build DockerImage and login to container
 
 ```bash
-$ docker-compose up -d dev
-$ docker-compose exec dev bash
+$ docker-compose up -d cpu
+$ docker-compose exec cpu bash
 ```
 
 ## Examples
